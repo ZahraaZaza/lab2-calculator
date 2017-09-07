@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">LoanCalculator</string>
+    <string name="title">Loan Calculator</string>
+    <string name="loanAmount">Loan Amount</string>
+    <string name="loanAmountHint">50000</string>
+    <string name="years">Term of Loan (years)</string>
+    <string name="numOfYears">7</string>
+    <string name="intrst">Yearly Interest Rate</string>
+    <string name="intrstNum">7.5</string>
+    <string name="calcBtn">Calculate</string>
+    <string name="clearBtn">Clear</string>
+    <string name="results">Results</string>
+    <string name="monthlyPay">Monthly Payment</string>
+    <string name="monthlyPayResult"></string>
+    <string name="totPay">Total Payment</string>
+    <string name="totPayResult"></string>
+    <string name="totIntrst">Total Interest</string>
+    <string name="totIntrstResult"></string>
 </resources>

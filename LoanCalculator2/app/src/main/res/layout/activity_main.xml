@@ -9,10 +9,11 @@
 
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="50dp"
+        android:text="@string/title"
+        android:gravity="center" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,22 +21,42 @@
         android:orientation="horizontal" >
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/loanAmountLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
-            android:gravity="Center" />
+            android:text="@string/loanAmount" />
 
         <EditText
-            android:id="@+id/textView5"
+            android:id="@+id/loanAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
-            android:gravity="Center" />
+            android:hint="@string/loanAmountHint" />
 
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/years"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".35"
+            android:text="@string/years" />
+
+        <EditText
+            android:id="@+id/numOfYears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/numOfYears"
+            />
     </LinearLayout>
 
 
@@ -46,44 +67,18 @@
 
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/intrst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="TextView"
-            android:gravity="Center" />
+            android:layout_weight=".45"
+            android:text="@string/intrst" />
 
         <EditText
-            android:id="@+id/textView9"
+            android:id="@+id/intrstNum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
-            android:gravity="Center"/>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal" >
-
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="TextView"
-            android:gravity="Center" />
-
-        <EditText
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="TextView"
-            android:gravity="Center" />
+            android:hint="@string/intrstNum" />
     </LinearLayout>
 
     <LinearLayout
@@ -92,27 +87,27 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/calcBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="4"
-            android:text="Button" />
+            android:text="@string/calcBtn" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/clearBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/clearBtn" />
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/results"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:gravity="Center"
-        android:text="Text View" />
+        android:gravity="center"
+        android:text="@string/results" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -120,18 +115,18 @@
         android:orientation="horizontal" >
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/monthlyPay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/monthlyPay" />
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/monthlyPayResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/monthlyPayResult" />
 
     </LinearLayout>
 
@@ -141,18 +136,18 @@
         android:orientation="horizontal" >
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/totPay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/totPay" />
 
         <TextView
-            android:id="@+id/textView21"
+            android:id="@+id/totPayResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/totPayResult" />
     </LinearLayout>
 
     <LinearLayout
@@ -162,18 +157,18 @@
 
 
         <TextView
-            android:id="@+id/textView24"
+            android:id="@+id/totIntrst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/totIntrst" />
 
         <TextView
-            android:id="@+id/textView23"
+            android:id="@+id/totIntrstResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/totIntrstResult" />
     </LinearLayout>
 
 </LinearLayout>
