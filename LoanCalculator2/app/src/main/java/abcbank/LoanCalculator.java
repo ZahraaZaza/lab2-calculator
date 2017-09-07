@@ -12,7 +12,6 @@ public class LoanCalculator
     {
     }
 
-
     public LoanCalculator (double loanAmount, int numberOfYears,
                            double yearlyInterestRate)
     {
